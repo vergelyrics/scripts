@@ -1,1 +1,1 @@
-# scripts
+# All Scripts Are Copyrighted To VergeLyrics!
