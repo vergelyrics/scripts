@@ -1,0 +1,1 @@
+var index=0;function change(){for(var e=document.getElementsByClassName("flip"),n=0;n<e.length;n++)e[n].style.display="none";++index>e.length&&(index=1),e[index-1].style.display="block",setTimeout(change,3e3)}change();
