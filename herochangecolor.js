@@ -1,0 +1,1 @@
+var div=document.getElementById("m-anglePageArt");function getRandomColor(){for(var o="#",n=0;n<6;n++)o+="0123456789ABCDEF"[Math.floor(16*Math.random())];return o}function changeColor(){div.style.backgroundColor=getRandomColor()}setInterval(changeColor,3e3);
