@@ -1,1 +1,1 @@
-var index=0;function change(){for(var e=document.getElementsByClassName("flip"),n=0;n<e.length;n++)e[n].style.display="none";++index>e.length&&(index=1),e[index-1].style.display="block",setTimeout(change,3e3)}change();
+const text=document.querySelector(".sec-text"),textLoad=()=>{setTimeout(()=>{text.textContent="Hello"},0),setTimeout(()=>{text.textContent="नमस्ते"},2e3),setTimeout(()=>{text.textContent="నమస్కార"},4e3),setTimeout(()=>{text.textContent="வணக்கம்"},6e3),setTimeout(()=>{text.textContent="নমস্কার"},8e3)};textLoad(),setInterval(textLoad,10e3);
