@@ -1,1 +1,1 @@
-const text=document.querySelector(".sec-text"),textLoad=()=>{setTimeout(()=>{text.textContent="Hello"},0),setTimeout(()=>{text.textContent="नमस्ते"},2e3),setTimeout(()=>{text.textContent="నమస్కార"},4e3),setTimeout(()=>{text.textContent="வணக்கம்"},6e3),setTimeout(()=>{text.textContent="নমস্কার"},8e3)};textLoad(),setInterval(textLoad,10e3);
+/* Hello */
