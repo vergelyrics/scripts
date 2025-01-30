@@ -1,0 +1,1 @@
+function msClarityApp(){if(!document.body.classList.contains("preview")){var e=document.createElement("script");e.src="https://vlscripts.pages.dev/vlmsclarityfile.js",e.id="msClarityApp",e.defer=!0,(document.head||document.getElementsByTagName("head")[0]).appendChild(e)}}
